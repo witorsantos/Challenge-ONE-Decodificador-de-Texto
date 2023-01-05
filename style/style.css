@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+body{
+    background-color: #E5E5E5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin-top: 25px;
+    margin-left: -35px;
+}
+
+main.conteudo{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.principal{
+    float: left;
+    display: block;
+    margin-left: 40px;
+}
+
+section label.texto-principal{
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+input#digTexto{
+    display: block;
+    margin-top: 5px;
+    border: none;
+    background-color: #E5E5E5;
+    width: 850px;
+    height: 400px;
+}
+
+label.texto-principal{
+    display: block;
+    margin-top: 30px;
+}
+
+main.conteudo div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p.p-info{
+    display: block;
+    margin: 15px 0 15px 3px;
+    color: #495057;
+}
+
+main.conteudo span{
+    margin-top: 12px;
+}
+
+input.botao-cripto{
+    height: 67px;
+    width: 328px;
+    border-radius: 24px;
+    border: none;
+    padding: 24px;
+    cursor: pointer;
+    background-color: #0A3871;
+    color: white;
+    margin-right: 20px;
+}
+
+input.botao-descri{
+    height: 67px;
+    width: 328px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    padding: 24px;
+    cursor: pointer;
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+section.lateral{
+    display: block;
+    margin-top: -59px;
+    margin-right: -110px;
+    height: 650px;
+    width: 350px;
+    border-radius: 32px;
+    background-color: #ffffff;
+    float: right;
+}
+
+section.lateral img.boneco{
+    width: 265px;
+    display: block;
+    margin-top: 160px;
+    margin-left: 43px;
+}
+
+section.lateral p.menssagen-lateral{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+    color: #343A40;
+    margin-top: 10px;
+}
+
+section.lateral p.menssagen-lateral-2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #495057;
+    margin-top: 10px;
+}
+
+footer.rodape{
+    clear: both;
+    margin: 15px 0;
+}
+
+footer p.mensagen-rodape{
+    text-align: center;
+    font-size: 10px;
+}
