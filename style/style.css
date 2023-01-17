@@ -26,20 +26,27 @@ main.conteudo{
     margin-left: 40px;
 }
 
+/*
 section label.texto-principal{
     color: #0A3871;
     font-size: 32px;
     font-weight: 400;
 }
+*/
 
-input#digTexto{
+textarea#digTexto{
     display: block;
-    margin-top: 5px;
+    margin-top: 25px;
     border: none;
     background-color: #E5E5E5;
     width: 850px;
     height: 400px;
 }
+
+::placeholder {color: #0A3871; font-size: 25px; font-weight: 200;}
+    textarea#digTexto:focus{
+        outline: none;
+    }
 
 label.texto-principal{
     display: block;
@@ -61,7 +68,7 @@ main.conteudo span{
     margin-top: 12px;
 }
 
-input.botao-cripto{
+input#botao-cripto{
     height: 67px;
     width: 328px;
     border-radius: 24px;
@@ -73,7 +80,7 @@ input.botao-cripto{
     margin-right: 20px;
 }
 
-input.botao-descri{
+input#botao-descri{
     height: 67px;
     width: 328px;
     border-radius: 24px;
@@ -95,12 +102,22 @@ section.lateral{
     float: right;
 }
 
+textarea#mensagem{
+    background-image: url(../imagens/High\ quality\ products\ 1\ 1.png);
+    background-image: no-repeat;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+/*
 section.lateral img.boneco{
     width: 265px;
     display: block;
     margin-top: 160px;
     margin-left: 43px;
 }
+*/
 
 section.lateral p.menssagen-lateral{
     font-size: 23px;
@@ -108,7 +125,7 @@ section.lateral p.menssagen-lateral{
     line-height: 29px;
     text-align: center;
     color: #343A40;
-    margin-top: 10px;
+    margin-top: 90px;
 }
 
 section.lateral p.menssagen-lateral-2{
@@ -118,6 +135,20 @@ section.lateral p.menssagen-lateral-2{
     text-align: center;
     color: #495057;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input.botao-copy{
+    height: 67px;
+    width: 200px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    padding: 24px;
+    cursor: pointer;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    display: block;
+    margin: 0 auto;
 }
 
 footer.rodape{
