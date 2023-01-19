@@ -26,20 +26,12 @@ main.conteudo{
     margin-left: 40px;
 }
 
-/*
-section label.texto-principal{
-    color: #0A3871;
-    font-size: 32px;
-    font-weight: 400;
-}
-*/
-
 textarea#digTexto{
     display: block;
     margin-top: 25px;
     border: none;
     background-color: #E5E5E5;
-    width: 850px;
+    width: 750px;
     height: 400px;
 }
 
@@ -47,6 +39,8 @@ textarea#digTexto{
     textarea#digTexto:focus{
         outline: none;
     }
+
+
 
 label.texto-principal{
     display: block;
@@ -72,11 +66,11 @@ input#botao-cripto{
     height: 67px;
     width: 328px;
     border-radius: 24px;
-    border: none;
     padding: 24px;
     cursor: pointer;
     background-color: #0A3871;
     color: white;
+    border: none;
     margin-right: 20px;
 }
 
@@ -100,42 +94,46 @@ section.lateral{
     border-radius: 32px;
     background-color: #ffffff;
     float: right;
+    position: relative;
+}
+
+div#res{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 textarea#mensagem{
     background-image: url(../imagens/High\ quality\ products\ 1\ 1.png);
     background-image: no-repeat;
+    background-position: center center;
+    width: 300px;
+    height: 270px;
+    border: none;
     display: block;
     margin: 0 auto;
-    border: none;
+    margin-left: -25px;
 }
 
-/*
-section.lateral img.boneco{
-    width: 265px;
-    display: block;
-    margin-top: 160px;
-    margin-left: 43px;
-}
-*/
-
-section.lateral p.menssagen-lateral{
+section.lateral p.mensagen-lateral{
     font-size: 23px;
     font-weight: 700;
     line-height: 29px;
     text-align: center;
     color: #343A40;
-    margin-top: 90px;
+    margin-top: 40%;
 }
 
-section.lateral p.menssagen-lateral-2{
+section.lateral p.mensagen-lateral-2{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
     color: #495057;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 input.botao-copy{
@@ -147,8 +145,11 @@ input.botao-copy{
     cursor: pointer;
     background-color: #D8DFE8;
     color: #0A3871;
-    display: block;
+    display: none;
     margin: 0 auto;
+    position: absolute;
+    top: 531px;
+    right: 75px;
 }
 
 footer.rodape{
@@ -159,4 +160,14 @@ footer.rodape{
 footer p.mensagen-rodape{
     text-align: center;
     font-size: 10px;
+}
+
+footer p img{
+    width: 30px;
+    margin-top: -20px;
+}
+
+footer p.mensagen-rodape a{
+    text-decoration: none;
+    color: #0A3871;
 }
