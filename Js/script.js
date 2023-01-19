@@ -9,7 +9,7 @@ function Criptografar(){
     else{
         let resultadoCrip = textoCriptado.value.replace(/e/g, 'enter').replace(/i/g, 'imes').replace(/a/g, 'ai').replace(/o/g, 'ober').replace(/u/g, 'ufat')
 
-        let res = document.getElementById('res').innerHTML = '<textarea readonly style="margin-top:60%;" id="input" cols="30" rows="15">' + resultadoCrip + '</textarea>'
+        document.getElementById('res').innerHTML = '<textarea readonly style="margin-top:45%;" id="input" cols="30" rows="15">' + resultadoCrip + '</textarea>'
 
         let mensagem1 = document.querySelector('p.mensagen-lateral')
         let mensagem2 = document.querySelector('p.mensagen-lateral-2')
@@ -31,7 +31,7 @@ function Descriptografar(){
     else{
         let resultadoCrip = textoCriptado.value.replace(/enter/g, 'e').replace(/imes/g, 'i').replace(/ai/g, 'a').replace(/ober/g, 'o').replace(/ufat/g, 'u')
 
-        let res = document.getElementById('res').innerHTML = '<textarea readonly style="margin-top:60%;" id="input" cols="30" rows="15">' + resultadoCrip + '</textarea>'
+        document.getElementById('res').innerHTML = '<textarea readonly style="margin-top:45%;" id="input" cols="30" rows="15">' + resultadoCrip + '</textarea>'
 
         let mensagem1 = document.querySelector('p.mensagen-lateral')
         let mensagem2 = document.querySelector('p.mensagen-lateral-2')
